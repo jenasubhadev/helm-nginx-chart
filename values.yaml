@@ -1,0 +1,16 @@
+replicaCount: 1
+image:
+  repository: nginx
+  tag: latest
+  pullPolicy: IfNotPresent
+customHtml: |
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>Welcome to my custom nginx page</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <p>This is my custom nginx page.</p>
+  </body>
+  </html>
